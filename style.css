@@ -1,0 +1,42 @@
+#p1 {t
+  font-style: italic;
+  font-family: sans-serif;
+}
+#body{
+  background-color: #000099;
+}
+
+
+
+
+
+#navbar {
+  background-color: #66ffff;
+  height: 40px;
+}
+
+#navbar ul {
+  list-style: none;
+}
+#navbar ul li{
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  padding-right: 10px;
+}
+	#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  #navbar ul li a:hover {
+    font-weight: bold;
+    background-color: #dbdbdb;
+    color: blue;
+    display: block;
+    border-radius: 8px 8px 8px 8px;
+    transition: 0.3s;
+  }
+#footer{
+  height: auto;
+}
