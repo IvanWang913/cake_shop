@@ -6,11 +6,12 @@ margin: 100px auto;
 }
 
 #navbar {
-  background-color: #66ffff;
+  background-color: #0066cc;
   height: 40px;
 }
 #navbar ul {
   list-style: none;
+  font-family: fantasy;
 }
 #navbar ul li{
   text-decoration: none;
@@ -31,10 +32,40 @@ margin: 100px auto;
     border-radius: 8px 8px 8px 8px;
     transition: 0.3s;
   }
+
+  #intro{
+    background-image: url('img/background.jpg');
+    background-size: 100%;
+    text-align: center;
+    padding: 30px;
+    font-family: fantasy;
+    color: white;
+  }
+  #intro img{
+    display: block;
+    margin: auto;
+    width: 300px;
+    border-radius: 50%;
+  }
+  #intro h1{
+    font-size: 70px;
+  }
+  #intro p{
+    font-size: 20px;
+  }
+  #about {
+    text-align: center;
+    background-color: grey;
+    padding: 40px;
+}
+#about img{
+  width: 140px;
+}
 #footer{
   position: fixed;
-  background-color: #ccccff;
+  background-color: grey;
   height: 30px;
+
 }
 #p1 {
 font-style: italic;
@@ -43,11 +74,16 @@ text-align: center;
 font-size: 25px;
 }
 #p2{
-  font-family: monospace;
+  font-family: fantasy;
   margin-right: 300px;
 }
 #p3{
   margin-left: 300px;
+  float: left;
+  font-family: fantasy;
+}
+#footerright{
+  float: right;
 }
 #cake{
   border-radius: 150px;
@@ -65,7 +101,7 @@ font-size: 25px;
 }
 #socialbar{
     margin: 0 0 0 0;
-    margin-right: 260px;
+    margin-right: 255px;
     padding: 10px;
     list-style: none;
 }
