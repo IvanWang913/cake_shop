@@ -1,4 +1,9 @@
-#main table{
+body{
+  background-image: url('img/b.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  #main table{
   margin: auto;
 }
   #navbar {
@@ -51,19 +56,21 @@
   }
   #about {
     text-align: center;
-    background-color: #ffcc66;
     padding: 40px;
 }
 #about img{
   width: 140px;
+  border-radius: 50%;
 }
 
 #why-us{
   background-image: url('img/whyusbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   width: 75%;
-  padding: 40px;
-  margin: 100px auto;
+  padding: 30px;
+  margin: 50px auto;
 }
 #why-us h2{
   font-size: 50px;
@@ -71,10 +78,8 @@
 #why-us img{
     width: 100%;
 }
-#why-us table{
 
-}
-footer{
+#contact{
   background-color: #363636;
   height: 120px;
   padding: 20px;
@@ -91,12 +96,12 @@ font-size: 25px;
   font-family: fantasy;
   margin-right: 300px;
 }
-#p3{
+#contactleft{
   margin-left: 300px;
   float: left;
   font-family: fantasy;
 }
-#footerright{
+#contactright{
   float: right;
 }
 #cake{
