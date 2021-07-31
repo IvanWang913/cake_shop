@@ -1,9 +1,8 @@
-
-
 body{
   background-image: url('img/b.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  color: white;
   }
   #main table{
   margin: auto;
@@ -133,4 +132,22 @@ font-size: 25px;
 #socialbar li{
   display: inline;
   padding: 5px;
+}
+#product{
+  margin: 100px;
+}
+#product img{
+  width: 50%;
+}
+#product table h1{
+  font-weight: bold;
+  font-family: cursive;
+    color: #0099cc;
+}
+#product table h4{
+font-style: italic;
+}
+#product table h2{
+  font-family: Verdana;
+  color: orange;
 }
