@@ -1,3 +1,5 @@
+
+
 body{
   background-image: url('img/b.jpg');
   background-size: cover;
@@ -5,6 +7,11 @@ body{
   }
   #main table{
   margin: auto;
+}
+#main table p{
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
 }
   #navbar {
   background-color: #0066cc;
@@ -85,6 +92,9 @@ body{
   padding: 20px;
   color: white;
 }
+footer{
+  text-align: center;
+}
 
 #p1 {
 font-style: italic;
@@ -113,10 +123,7 @@ font-size: 25px;
   display: block;
   margin: auto;
 }
-#name{
-  font-size: 30px;
-  font-family: fantasy;
-}
+
 #socialbar{
     margin: 0 0 0 0;
     margin-right: 255px;
