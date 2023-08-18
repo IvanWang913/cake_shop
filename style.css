@@ -162,12 +162,12 @@ font-style: italic;
   margin: 30px;
 }
 #vm{
-  padding: 30px;
-  margin: 30px auto;
-  background-image: url('img/bluebg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
-  width: 75%;
+    padding: 30px;
+    margin: 30px auto;
+    background-image: url('img/bluebg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    width: 75%;
 
 }
