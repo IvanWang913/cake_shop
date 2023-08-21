@@ -161,13 +161,15 @@ font-style: italic;
   text-align: center;
   margin: 30px;
 }
-#vm{
-    padding: 30px;
-    margin: 30px auto;
-    background-image: url('img/bluebg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: left;
-    width: 75%;
 
+#vm{
+  background-image: url('img/org.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  width: 40%;
+  padding: 30px;
+  margin: 30px auto;
+  text-align: center;
 }
+
