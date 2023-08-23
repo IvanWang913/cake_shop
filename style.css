@@ -17,6 +17,7 @@ body{
   #main table td{
     display: block;
   }
+
 }
   #navbar {
   background-color: #0066cc;
@@ -112,7 +113,7 @@ font-size: 25px;
     margin-right: 325px;
 }
 #contactleft{
-  margin-left: 300px;
+  margin-left: 20em;
   float: left;
   font-family: fantasy;
 }
@@ -122,6 +123,7 @@ font-size: 25px;
 #cake{
   width: 350px;
 }
+
 #bg{
   width: 1000px;
   height: 500px;
@@ -163,13 +165,22 @@ font-style: italic;
 }
 
 #vm{
-  background-image: url('img/org.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  width: 40%;
-  padding: 30px;
-  margin: 30px auto;
+  background-image: url('img/background.jpg');
+  background-size: 100%;
   text-align: center;
+  padding: 30px;
+  font-family: fantasy;
+  color: white;
 }
 
+#ck {
+  text-align: center;
+  padding: 40px;
+}
+#ck img{
+  width: 300px;
+  border-radius: 20%;
+}
+#ck td{
+  padding: 10px 100px;
+}
