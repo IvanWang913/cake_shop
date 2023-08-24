@@ -113,12 +113,13 @@ font-size: 25px;
     margin-right: 325px;
 }
 #contactleft{
-  margin-left: 20em;
+  margin-left: 10%;
   float: left;
   font-family: fantasy;
 }
 #contactright{
   float: right;
+
 }
 #cake{
   width: 350px;
