@@ -98,29 +98,22 @@ body{
   padding: 20px;
   color: white;
 }
+
+#contactleft{
+  float: left;
+  margin-left: 15%;
+  font-family: fantasy;
+}
+#contactright{
+  font-family: fantasy;
+  float: right;
+	margin-right: 15%;
+}
+
 footer{
   text-align: center;
 }
 
-#p1 {
-font-style: italic;
-font-family: sans-serif;
-text-align: center;
-font-size: 25px;
-}
-#p2{
-    font-family: fantasy;
-    margin-right: 325px;
-}
-#contactleft{
-  margin-left: 10%;
-  float: left;
-  font-family: fantasy;
-}
-#contactright{
-  float: right;
-
-}
 #cake{
   width: 350px;
 }
@@ -133,14 +126,12 @@ font-size: 25px;
 }
 
 #socialbar{
-    margin: 0 0 0 0;
-    margin-right: 255px;
-    padding: 10px;
-    list-style: none;
+  list-style: none;
+  padding-left: 0px;
 }
 #socialbar li{
   display: inline;
-  padding: 5px;
+  padding-right: 10px;
 }
 #product{
   margin: 100px;
